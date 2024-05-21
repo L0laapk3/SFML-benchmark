@@ -9,7 +9,7 @@ include(../cmake/GoogleBenchmark.cmake)
 
 # SFML
 include(FetchContent)
-if (1)
+if (0)
     add_definitions(-DFASTER_TRANSFORM)
     FetchContent_Declare(SFML
         GIT_REPOSITORY https://github.com/L0laapk3/SFML.git

@@ -3,7 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.11)
 
-project ("Benchmarks")
+project("Benchmarks")
 
 # Include sub-projects.
-add_subdirectory ("StringBenchmarks")
+add_subdirectory("TransformBenchmark")
